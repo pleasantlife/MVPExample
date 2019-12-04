@@ -9,28 +9,20 @@
     android:padding="@dimen/_8dp">
 
 
-    <EditText
-        android:id="@+id/loginActivity_firstName_editText"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="First Name"
-        tools:text="First Name" />
+        android:layout_height="wrap_content" />
 
-    <EditText
-        android:id="@+id/loginActivity_lastName_editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Last Name"
-        android:layout_marginTop="@dimen/_8dp"
-        tools:text="Last Name" />
+
 
     <Button
-        android:id="@+id/loginActivity_login_button"
+        android:id="@+id/login_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
         android:textColor="#ffffff"
         android:layout_marginTop="@dimen/_16dp"
-        android:text="Log in" />
+        android:text="getText" />
 
 </LinearLayout>
